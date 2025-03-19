@@ -1,3 +1,8 @@
+            week = ["火","水","木","金","土","日","月"]
+            dt = datetime.datetime(now_year, now_month, now_day)
+            
+            self.sort_id_list.reverse()
+            _project = self.session.connect_project("1148774330")
             instructions = ("←⚠️ここに入りたい人は応募をして下さい▼\n"
                             "https://scratch.mit.edu/projects/1143626844/\n"
                             "※これはscratch公式が行っている事ではありません｡\n"
