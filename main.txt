@@ -1,0 +1,11 @@
+            instructions = ("←⚠️ここに入りたい人は応募をして下さい▼\n"
+                            "https://scratch.mit.edu/projects/1143626844/\n"
+                            "※これはscratch公式が行っている事ではありません｡\n"
+                            "ーーーーーーー㊗️見てあげてね！！㊗️ーーーーーーー\n"
+                            f"　　　　≪最終更新：{now_year}/{now_month}/{now_day}({week[dt.weekday() - 1]}) {now_hour}:{now_minutes}≪\n")
+            _i_ = 0
+            for _instructions in self.sort_id_list:
+                _i_ += 1
+                instructions = instructions + f"傾向{_i_}位 https://scratch.mit.edu/projects/{_instructions}\n"
+                
+            instructions = instructions + "\n「scratch - 見る」\n@-_sikkoku_-(自分のアカウントより引用) #all"
